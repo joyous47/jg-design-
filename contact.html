@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>JG Designs Studio</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="C:\Users\user\Desktop\jg website\LOG D.png" alt="Logo">
+      </a>
+    </div>
+
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </label>
+
+    
+    <nav class="nav">
+      <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="services.html">Services</a>
+            <a href="packages.html">Packages</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="contact.html" class="sign-in" >Sign In</a>
+    </nav>
+  </header>
+    <main>
+        <section class="contact-section">
+            <h2>Get in Touch with JG Designs Studio</h2>
+            <p class="subtitle">We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+			<div class="contact-container-main">
+			
+				<div class="contact-info-grid">
+					<div class="contact-item-box">
+						<div class="contact-item">
+							<i class="fas fa-map-marker-alt"></i>
+							<h3>Our Location</h3>
+							<p>Nairobi, Kenya</p>
+						</div>
+						<div class="contact-item">
+							<i class="fas fa-phone-alt"></i>
+							<h3>Call Us</h3>
+							<p><a href="tel:+254700054135">+254 700054135</a></p>
+						</div>
+					</div>
+					
+					<div class="contact-item-box">
+					
+						<div class="contact-item">
+							<i class="fab fa-whatsapp"></i>
+							<h3>WhatsApp</h3>
+							<p><a href="https://wa.me/254700054135" target="_blank">+254 700054135</a></p>
+						</div>
+						<div class="contact-item">
+							<i class="fas fa-envelope"></i>
+							<h3>Email Us</h3>
+							<p><a href="mailto:info@jgdesigns.com">info@jgdesigns.com</a></p>
+						</div>
+					</div>
+					<div class="contact-item-box">
+						<div class="contact-working-hours">
+							<h3>Working Hours</h3>
+							<h4>Monday - Friday : 8.00am -9pm</h4>
+							<h4>Weekds and Public holidays : 9.00am -4pm</h4>
+						</div>
+					</div>
+                
+          		   </div>
+
+            <form class="contact-form" id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                    <div class="error-message" id="first-name-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                    <div class="error-message" id="last-name-error"></div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    <div class="error-message" id="email-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="contact-date">Preferred Contact Date</label>
+                    <input type="date" id="contact-date" name="contact-date" required>
+                    <div class="error-message" id="contact-date-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="service">Interested Service</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service...</option>
+                        <option value="logo-design">Logo Design</option>
+                        <option value="web-design">Website Design</option>
+                        <option value="branding">Brand Identity</option>
+                        <option value="print-design">Print Design</option>
+                        <option value="social-media">Social Media Graphics</option>
+                        <option value="illustration">Illustration & Custom Art</option>
+                        <option value="motion-graphics">Motion Graphics & Animation</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="error-message" id="service-error"></div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your project or inquiry..." required></textarea>
+                    <div class="error-message" id="message-error"></div>
+                </div>
+                <button type="submit" class="submit-button">Submit Form</button>
+            </form>
+			</div>
+            
+
+            <div>
+                <h2>Find Us on the Map</h2>
+                <img src="sample designs\staticmap.png" alt="Map of Nairobi, Kenya (Offline View)" onerror="this.style.display='none';">
+            </div>
+        </section>
+
+        <section class="service-carousel-section">
+            <h2>Our Creative Journey</h2>
+            <div class="carousel-container">
+                <button class="carousel-button prev">&#10094;</button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="C:\Users\user\Desktop\joy barongo 11514\sample designs\intial stage.png" alt="Initial Concept & Research" onerror="this.src='https://placehold.co/600x400/CCCCCC/000000?text=Image+Not+Found';">
+                            <div class="slide-caption">Initial Concept & Research</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="C:\Users\user\Desktop\joy barongo 11514\sample designs\design.png" alt="Design Development & Iteration" onerror="this.src='https://placehold.co/600x400/CCCCCC/000000?text=Image+Not+Found';">
+                            <div class="slide-caption">Design Development & Iteration</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="C:\Users\user\Desktop\joy barongo 11514\sample designs\client feedback.png" alt="Client Feedback & Refinement" onerror="this.src='https://placehold.co/600x400/CCCCCC/000000?text=Image+Not+Found';">
+                            <div class="slide-caption">Client Feedback & Refinement</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="C:\Users\user\Desktop\joy barongo 11514\sample designs\final.png" alt="Final Delivery & Launch" onerror="this.src='https://placehold.co/600x400/CCCCCC/000000?text=Image+Not+Found';">
+                            <div class="slide-caption">Final Delivery & Launch</div>
+                        </div>
+                         <div class="carousel-slide">
+                            <img src="C:\Users\user\Desktop\joy barongo 11514\sample designs\post.png" alt="Post-Launch Support & Growth" onerror="this.src='https://placehold.co/600x400/CCCCCC/000000?text=Image+Not+Found';">
+                            <div class="slide-caption">Post-Launch Support & Growth</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button next">&#10095;</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p>copyright@2025 joy's studio.| Nairobi, Kenya</p>
+        <marquee direction="left">All rights reserved!</marquee>
+        <div class="footer-social-icons">
+            <div class="icon facebook">
+                <div class="tooltip">Facebook</div>
+				<span><a href="#"><i class="fa-brands fa-facebook"></i></a></span>
+            </div>
+            <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <span><a href="#"><i class="fa-brands fa-youtube"></a></i></span>
+            </div>
+            <div class="icon whatsapp">
+                <div class="tooltip">Whatsapp</div>
+                <span><a href="#"><i class="fa-brands fa-whatsapp"></a></i></span>
+            </div>
+            <div class="icon tiktok">
+                <div class="tooltip">Tiktok</div>
+                <span><a href="#"><i class="fa-brands fa-tiktok"></a></i></span>
+            </div>
+            <div class="icon twitter">
+                <div class="tooltip">Twitter</div>
+                <span><a href="#"><i class="fa-brands fa-x-twitter"></a></i></span>
+            </div>
+            <div class="icon linkedin">
+                <div class="tooltip">Linkedin</div>
+                <span><a href="#"><i class="fa-brands fa-linkedin"></a></i></span>
+            </div>
+        </div>
+    </footer>
+      <script src="js\script.js"></script>
+</body>
+</html>
